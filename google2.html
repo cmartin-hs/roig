@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            width: 60%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .search-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 15px;
+        }
+        .search-logo {
+            margin-right: 20px;
+        }
+        .search-input {
+            flex-grow: 1;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .search-result {
+            margin-top: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+        .result-title {
+            font-size: 18px;
+            color: #1a0dab;
+            text-decoration: none;
+        }
+        .result-url {
+            color: #006621;
+        }
+        .result-snippet {
+            color: #545454;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="search-header">
+            <img class="search-logo" src="google-logo.png" alt="Google Logo" width="100"/>
+            <input type="text" class="search-input" value="car rentals in Mallorca" />
+        </div>
+
+        <div class="search-result">
+            <a href="#" class="result-title">Top 10 Car Rental Deals in Mallorca - Tripadvisor</a><br/>
+            <span class="result-url">https://www.tripadvisor.com/CarRentalMallorca</span><br/>
+            <p class="result-snippet">Find and book car rentals in Mallorca at the best prices. Check reviews and compare deals...</p>
+        </div>
+
+        <div class="search-result">
+            <a href="#" class="result-title">Mallorca Car Hire - Best Prices - Rentalcars.com</a><br/>
+            <span class="result-url">https://www.rentalcars.com/Mallorca</span><br/>
+            <p class="result-snippet">Hire a car in Mallorca with Rentalcars.com. Compare prices and get the best deal on...</p>
+        </div>
+
+        <div class="search-result">
+            <a href="#" class="result-title">Cheap Car Rental Mallorca – Rentalcars.com</a><br/>
+            <span class="result-url">https://www.rentalcars.com/CheapRentalMallorca</span><br/>
+            <p class="result-snippet">Book a cheap car rental in Mallorca with us today. We offer best price guarantee...</p>
+        </div>
+
+        <!-- Add more results as needed -->
+    </div>
+</body>
+</html>
